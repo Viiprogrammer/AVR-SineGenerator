@@ -17,8 +17,8 @@
 #define LCD_COM_DISPLAY_CONTR      (1<<3)|(LCD_DISPLAY_OFF_ON<<2)|(LCD_CURSOR_OFF_ON<<1)|(LCD_CURSOR_BLINK_OFF_ON<<0)
 #define LCD_COM_FUNCTION_SET       (1<<5)|(LCD_BUS_4_8_BIT<<4)|(LCD_ONE_TWO_LINE<<3)|(LCD_FONT58_FONT511<<2)
 #define LCD_COM_INIT_1              0x30
-#define LCD_DELAY_STROB             2
-#define LCD_DELAY_WAIT              40
+#define LCD_DELAY_STROB             8
+#define LCD_DELAY_WAIT              90
 #define LCD_FL_BF                   7
 
 /*_________________________________________________________________*/

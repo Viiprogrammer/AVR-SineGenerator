@@ -135,6 +135,7 @@ int main(void)
 	timer0_init();
 		
 	LCD_Init();
+
 	LCD_SetUserChar(B, 0); 
 	LCD_Goto(0, 0);
 
@@ -145,7 +146,7 @@ int main(void)
 	LCD_WriteData(0);
 	LCD_WriteData('"');
 
-	LCD_SendStr(VERSION);
+	LCD_SendStr("v1.0.0");
 	
 	_delay_ms(1000);
 	
