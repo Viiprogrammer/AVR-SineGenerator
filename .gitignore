@@ -30,3 +30,17 @@
 *.exe
 *.out
 *.app
+
+# Proteus
+*.bak
+*.workspace
+*.pdsbak
+
+# Solution files
+*.eep
+*.hex.
+*.lss
+*.elf
+*.o
+*.map
+*.srec
